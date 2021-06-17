@@ -61,7 +61,7 @@ install the environment
 ---
     returns json data about sign up a user
 
-    * **URL**
+* **URL**
 
   /api/auth/:id
 
