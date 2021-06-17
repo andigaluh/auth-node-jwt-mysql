@@ -25,7 +25,7 @@ install the environment
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/andigaluh/auth-node-jwt-mysql.git
    ```
 2. Install NPM packages
    ```sh
