@@ -110,6 +110,6 @@ install the environment
         "username" : "admin",
         "email": "admin@domain.com",
         "password" : "password-here",
-        "roles" : ["moderator","moderator","user"]
+        "roles" : ["admin","moderator","user"]
     }'
   ```
