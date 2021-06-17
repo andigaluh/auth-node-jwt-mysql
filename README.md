@@ -63,7 +63,7 @@ install the environment
 
 * **URL**
 
-  /api/auth/:id
+  /api/auth/signup
 
 * **Method:**
 
