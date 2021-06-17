@@ -112,4 +112,3 @@ returns json data about sign up a user
         "password" : "password-here",
         "roles" : ["admin","moderator","user"]
     }'
-  ```
