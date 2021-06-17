@@ -55,7 +55,7 @@ install the environment
     node server.js
    ```
 
-### Endpoint
+## Endpoint
 
 **Sign Up**
 ---
