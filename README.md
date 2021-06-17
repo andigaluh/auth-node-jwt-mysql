@@ -107,9 +107,9 @@ install the environment
     curl --location --request POST 'http://localhost:8080/api/auth/signup' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-        "username" : "dev",
-        "email": "aqndevel@asiaquatro.net",
-        "password" : "1qazxsw2",
-        "roles" : ["moderator","user"]
+        "username" : "admin",
+        "email": "admin@domain.com",
+        "password" : "password-here",
+        "roles" : ["moderator","moderator","user"]
     }'
   ```
