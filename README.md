@@ -59,7 +59,7 @@ install the environment
 
 **Sign Up**
 ---
-    returns json data about sign up a user
+returns json data about sign up a user
 
 * **URL**
 
