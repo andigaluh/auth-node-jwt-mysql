@@ -1,9 +1,10 @@
+require("dotenv").config();
 module.exports = {
-  host: "xxx.domain.com",
-  port: 000,
-  user: "email@domain.com",
-  pass: "password-is-here",
-  bcc: "other.email@domain.com",
+  host: process.env.MAIL_HOST,
+  port: process.env.MAIL_PORT,
+  user: process.env.MAIL_USER,
+  pass: process.env.MAIL_PASSWORD,
+  bcc: process.env.MAIL_BCC,
   userRegistrationSubject: "Welcome from auth-jwt-mysql",
   userRegistrationText: `Hi {req.body.name}, welcome to auth-jwt-mysql.\n 
     Your account is successfully submited. Please login using : \n 

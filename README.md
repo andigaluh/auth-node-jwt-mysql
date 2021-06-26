@@ -32,24 +32,7 @@ install the environment
    npm install
    ```
 3. Create a database named *authdb* in your mysql server
-4. Enter your custom setup in `app/config/auth.config.js.template` and save as `app/config/auth.config.js`
-   <!-- ```sh
-    secret: 'ENTER YOUR SECRET KEY',
-   ``` -->
-5. Enter your mysql credential in `app/config/db.config.js.template` and save as `app/config/db.config.js`
-   <!-- ```sh
-    HOST: "localhost",
-    USER: "your-user",
-    PASSWORD: "your-password",
-   ``` -->
-6. Enter your mail sender credential in `app/config/mail.config.js.template` and save as `app/config/mail.config.js`
-   <!-- ```sh
-    host: "smtp.domain.com",
-    port: 465,
-    user: "email@domain.com",
-    pass: "your-password",
-    bcc: "other-email@domain.com",
-   ``` -->
+4. Enter your credential in `.env.template` and save as `.env`
 7. Start the project
    ```sh
     node server.js
